@@ -1,0 +1,45 @@
+<view class="container">
+  <!-- 标题 -->
+  <view class="title">
+    <input type="text">广州沙发</input>
+  </view>
+  <view class="line">
+    <image src="/icons/line_row.jpg"></image>
+  </view>
+  <!-- 具体内容 -->
+  <view class="desc">
+    <!-- 内容 -->
+    <textarea class="content" name="content" cols="40" rows="4" style="OVERFLOW:   hidden"></textarea>
+    <!-- 上传图片 -->
+    <view class="pics">
+      <image src="/icons/add_pic.png"></image>
+    </view>
+  </view>
+  <!-- 定位等小图标（参考soul） -->
+  <view class="btns">
+    <view class="location">
+      <view class="loc_img">
+        <image src="/icons/location.png"></image>
+      </view>
+      <text>你在哪里</text>
+    </view>
+
+    <view class="location">
+      <view class="loc_img">
+        <image src="/icons/jin.png"></image>
+      </view>
+      <text>添加标签</text>
+    </view>
+
+    <view class="location">
+      <view class="loc_img">
+        <image src="/icons/up.png"></image>
+      </view>
+      <text>权限设置</text>
+    </view>
+
+    <view class="send">
+      <text>发 布</text>
+    </view>
+  </view>
+</view>

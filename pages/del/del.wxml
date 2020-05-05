@@ -1,0 +1,100 @@
+<view class="container" style="background:white;">
+  <view class="title">
+    【坐标南京】河西奥体南 豪华装修 江景房 为沙发客提供住宿</view>
+  <view class="user">
+    <view class="user_header">
+      <image src="/icons/user_icon.png"></image>
+    </view>
+    <view class="user_msg">
+      <text class="user_name">{{user.name}}shafak</text>
+      <text class="user_time">{{user.date}}2020-1-24</text>
+    </view>
+  </view>
+  <view class="content">
+    <text>要温馨小窝的妹子看过来，免租，因为我是雷锋 先介绍下自己，身高178，体重138，颜7分左右，忽上忽下的不稳定，不好意思，有丢丢严控； 再次需要未来窝里的你相互看着顺眼，不是斜眼哈，爱干净； 最后说下我的微信：2698098277。 ps：我养了一些会游的生物，可能需要你帮照顾下，平时不怎么回住的地方，一般学校---住的地方两点一线，万一你出现啥事了，直奔同济喊一声就能找到我，不信你试试。
+  </text>
+  </view>
+  <view class="img_wrap">
+    <image mode="widthFix" src="/images/post_img1.jpg"></image>
+    <image mode="widthFix" src="/images/post_img2.jpg"></image>
+    <image mode="widthFix" src="/images/post_img3.jpg"></image>
+    <image mode="widthFix" src="/images/post_img4.jpg"></image>
+  </view>
+
+  <view class="line"></view>
+
+  <!-- 赞等 的tag1 -->
+  <view class="influ_tags">
+    <view class="tag">
+      <text class="word">回复</text>
+      <text class="count">22</text>
+    </view>
+    <view class="tag">
+      <text class="word">赞</text>
+      <text class="count">3</text>
+    </view>
+    <view class="tag">
+      <text class="word">转发</text>
+      <text class="count">7</text>
+    </view>
+    <!-- <view class="tag">
+      <text class="response">收藏</text>
+      <text class="count">22</text>
+    </view> -->
+  </view>
+
+  <!-- 赞等内容 -->
+  <view class="influ_items">
+    <!-- 回复 -->
+    <view class="reply_item">
+      <view class="rep_above">
+        <view class="rep_user">
+          <image src="/icons/user_icon.png"></image>
+        </view>
+        <text class="rep_name">sofak1</text>
+        <text class="rep_time">3月11日</text>
+
+      </view>
+      <text class="rep_content">加油加油!加油加油!加油加油!加油加油!加油加油!加油加油!加油加油!加油加油!加油加油!加油加油!加油加油!加油加油!加油加油!加油加油!加油加油!      </text>
+      <view class="rep_zan">
+        <image src="/icons/good0.png"></image>
+        <text>3</text>
+      </view>
+    </view>
+    <view class="reply_item">
+      <view class="rep_above">
+        <view class="rep_user">
+          <image src="/icons/user_icon.png"></image>
+        </view>
+        <text class="rep_name">sofak1</text>
+        <text class="rep_time">3月11日</text>
+
+      </view>
+      <text class="rep_content">加油加油!加油加油!加油加油!加油加油!加油加油!加油加油!加油加油!加油加油!加油加油!加油加油!加油加油!加油加油!加油加油!加油加油!加油加油!      </text>
+      <view class="rep_zan">
+        <image src="/icons/good0.png"></image>
+        <text>3</text>
+      </view>
+    </view>
+    <!-- 赞 -->
+    <view class="zan_item">
+      <view class="zan_user">
+        <image src="/icons/user_icon.png"></image>
+      </view>
+      <text class="zan_name">sofak1</text>
+      <text class="zan_time">3月23日</text>
+    </view>
+    <view class="zan_item">
+      <view class="zan_user">
+        <image src="/icons/user_icon.png"></image>
+      </view>
+      <text class="zan_name">sofak1</text>
+      <text class="zan_time">3月23日</text>
+    </view>
+    
+    <!-- 转发 -->
+
+    <!-- 收藏 -->
+  </view>
+
+</view>

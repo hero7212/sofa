@@ -1,0 +1,218 @@
+.title{
+  height: 80rpx;
+  width:100%;
+  padding:10rpx 20rpx;
+  font-size: 38rpx;
+  color: black;
+  font-weight: bold;
+}
+.user{
+  height: 80rpx;
+  width:100%;
+  padding: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.user_header{
+  width:20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user_header image{
+  width:65rpx;
+  height:65rpx;
+
+}
+.user_msg{
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color:#8a8a8a; 
+  font-size: 32rpx;
+}
+.user_name{
+  height: 50%;
+}
+.user_time{
+  height: 50%;
+}
+.content{
+  padding:20rpx;
+  color:#1d1c1c;
+  font-size: 34rpx;
+}
+.img_wrap{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding:10rpx 20rpx;
+  margin: 15rpx 0;
+
+}
+.img_wrap image{
+  width:80%;
+  padding:10rpx;
+}
+/* 分割线 */
+.line{
+  height:25rpx;
+  width:100%;
+  background: #e6e6e6;
+}
+
+/* 赞开始 */
+.influ_tags{
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  width:100%;
+  padding:20rpx;
+  /* justify-content: center;
+  align-items: center; */
+}
+.tag{
+  margin-right: 25rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+}
+.word{
+  font-size:32rpx;
+  color:#313030;
+
+}
+.count{
+  font-size:25rpx;
+  color:#8a8a8a;
+  padding-bottom: 15rpx;
+  /* display:flex;
+  align-items:  */
+}
+/* 回复以及赞等内容 */
+.influ_items{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width:100%;
+  padding:20rpx;
+}
+/* 回复 */
+.reply_item{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width:100%;
+  border-bottom: 1rpx solid #e6e6e6;
+}
+/* 用户信息 */
+.rep_above{
+  height: 50rpx;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  padding:10rpx;
+}
+.rep_user{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50rpx;
+  height:100%;
+  margin-right: 15rpx;
+}
+.rep_user image{
+  width:45rpx;
+  height:45rpx;
+
+}
+.rep_name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:32rpx;
+  color:#1d1c1c;
+  margin-right: 15rpx;
+}
+.rep_time{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:25rpx;
+  color:#8a8a8a;
+  margin-right: 15rpx;
+}
+/* 内容 */
+.rep_content{
+  width:80%;
+  height: auto;
+  padding:10rpx 0;
+  color:#1d1c1c;
+  font-size:30rpx;
+  margin-left:80rpx;
+  display: flex;
+  align-items: center;
+}
+.rep_zan{
+  margin-left:70rpx;
+  width:10%;
+  height:40rpx;
+  padding:10rpx 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.rep_zan image{
+  height:30rpx;
+  width:30rpx;
+  margin-left: 15rpx;
+}
+.rep_zan text{
+  height:25rpx;
+  width:25rpx;
+  color: #8a8a8a;
+  font-size: 25rpx;
+}
+/* 赞,转发 */
+.zan_item{
+  display: flex;
+  flex-direction: row;
+  height: 70rpx;
+  width:100%;
+  padding: 10rpx;
+  border-bottom: 1rpx solid #e6e6e6;
+}
+.zan_user{
+  height:90%;
+  width:50rpx;
+  margin-right: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zan_user image{
+  height: 50rpx;
+  width:50rpx;
+}
+.zan_name{
+  font-size:32rpx;
+  color:#313030;
+  margin-right: 15rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zan_time{
+  flex:1;
+  font-size:25rpx;
+  color:#8a8a8a;
+  display: flex;
+  align-items: center;
+}

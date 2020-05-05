@@ -1,0 +1,70 @@
+.post {
+  display: flex;
+  flex-direction: column; /*从上到下排列*/
+  background-color: white;
+}
+
+.post_header {
+  display: flex; /*伸缩盒子*/
+  padding: 10rpx;
+  background-color: white;
+  /* flex-direction: column; /*从左到右排列
+  justify-content: center;*/
+  align-items: center;
+}
+
+.user_icon {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user_nickname {
+  flex: 7;
+  font-size: 30rpx;
+  margin-left: 10rpx;
+}
+
+.more_icon {
+  flex: 1;
+  display: flex;
+  justify-content: center; /*内容水平居中*/
+  align-items: center;
+}
+
+.post_body {
+  flex-direction: column;
+  display: flex;
+  padding: 10rpx;
+}
+
+.title {
+  display: flex;
+  font-size: 33rpx;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+  color: black;
+}
+
+.content {
+  font-size: 30rpx;
+  color: #1d1c1c;
+  width: 100%;
+  margin-bottom: 15rpx;
+  word-break: break-all; /*属性规定自动换行的处理方法。normal(使用浏览器默认的换行规则)break-all(允许在单词内换行)keep-all(只能在半角空格或连字符处换行。)*/
+  text-overflow: ellipsis;
+  display: -webkit-box; /* 对象作为伸缩盒子模型显示 */
+  -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 */
+  -webkit-line-clamp: 3; /* 显示的行数 */
+  overflow: hidden; /* 隐藏超出的内容 */
+}
+/* .post_imgs{
+  display: flex;
+} */
+.post_img{
+  width:250rpx;
+  height:250rpx;
+  border-radius: 10rpx;
+  margin-right: 10rpx;
+}

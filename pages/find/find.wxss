@@ -1,0 +1,42 @@
+/* pages/find/find.wxss */
+@import "../../wxSearchView/wxSearchView.wxss";
+
+.send_poster {
+  width: 100%;
+  margin: 10rpx;
+  padding:10rpx;
+  height: 110rpx;
+  display: flex;
+  flex-direction: row;
+  /* opacity:0; */
+  justify-content: space-around;
+}
+
+.sp_item {
+  height: 100%;
+  width: 100rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sp_item image {
+  width: 75rpx;
+  height: 75rpx;
+}
+
+.sp_item text {
+  width: 100rpx;
+  color: #65934a;
+  font-size: 25rpx;
+  margin-top: rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.items{
+  height: 100%;
+  width: 100%;
+}

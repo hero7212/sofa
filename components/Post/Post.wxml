@@ -1,0 +1,23 @@
+<view class="post" url="/pages/del/del" open-type="navigate">
+  <view class="post_header">
+  
+    <navigator class="user_icon" url="/pages/user/user" open-type="navigate">
+      <image src="/icons/user_icon.png" style="height:65rpx;width:65rpx;"></image>
+    </navigator>
+
+    <!-- <view class="user_nickname">{{userName}}</view> -->
+    <view class="user_nickname">userName</view>
+    <navigator class="more_icon" >
+      <image src="/icons/more_icon.png" style="height:55rpx;width:50rpx;"></image>
+    </navigator>
+  </view>
+
+  <view class="post_body">
+    <view class="title">{{post.title}}</view>
+    <text class="content" decode="true">{{post.content}}</text>
+    <view class="post_imgs"  >
+      <image class="post_img"  wx:for="{{post.imgs}}" wx:key="index" src="{{item}}" mode="scaleToFill" wx:if="{{index<=3}}"></image>
+    </view>
+  </view>
+
+</view>

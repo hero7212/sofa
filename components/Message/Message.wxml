@@ -1,0 +1,24 @@
+<view class="message">
+  <navigator class="user_icon" url="/pages/user/user" open-type="navigate">
+    <!-- <image src="/icons/user_icon.png" style="height:65rpx;width:65rpx;"></image> -->
+    <image wx:if="{{contact.friendAvatarUrl == ''}}" src="{{noData}}" style="height:65rpx;width:65rpx;"></image>
+    <image wx:if="{{contact.friendAvatarUrl != ''}}" src="{{contact.friendAvatarUrl}}" style="height:65rpx;width:65rpx;"></image>
+  </navigator>
+
+  <view class="right_part">
+
+    <view class="info">
+      <text class="user_name"> {{contact.friendName}}</text>
+      <text class="time">{{contact.msgTime}}</text>
+
+      <navigator class="more_icon" url="" open-type="navigate">
+       <image src="/icons/more.png" style="height:30rpx;width:50rpx;"></image>
+      </navigator>
+
+    </view>
+
+    <!-- <text class="talk">你好~</text> -->
+    <text class="talk" wx:if="{{contact.unreadMsgCount == 0}}">{{contact.msg}}</text>
+    <text class="talk" wx:if="{{contact.unreadMsgCount > 0}}">[{{contact.unreadMsgCount}}条] {{item.msg}}</text>
+  </view>
+</view>

@@ -1,0 +1,23 @@
+<view class="container">
+  <view class="header">
+    <text bindtap="actNav" class="nav {{flag==0 ? 'active':''}}" data-num="0">提醒</text>
+    <text bindtap="actNav" class="nav {{flag==1 ? 'active':''}}" data-num="1">私信</text>
+  </view>
+  <!-- <view class="msg_body" >
+    <navigator class="sp_item" url="/pages/chat/chat" open-type="navigate">
+    <Message></Message>
+    </navigator>
+    <navigator class="sp_item" url="/pages/chat/chat" open-type="navigate">
+    <Message></Message>
+    </navigator>
+    <navigator class="sp_item" url="/pages/chat/chat" open-type="navigate">
+    <Message></Message>
+    </navigator>
+  </view> -->
+  <view class="msg_body" wx:for="{{contactList}}" wx:key="index" wx:if="{{contactList.length > 0}}" bindtap='linkChat' data-id="{{item.friendId}}" data-name="{{item.friendName}}" data-image="{{item.friendAvatarUrl}}">
+    <Message contact="{{item}}"></Message>
+  </view>
+</view>
+
+
+<!-- 消息列表为空的视图 -->

@@ -1,0 +1,21 @@
+.header{
+  width: 100%;
+  height: 80rpx;
+  /* display:flex;
+  flex-direction: row; */
+   white-space: nowrap;
+   margin: 0 200rpx;
+}
+.nav{
+  padding: 10rpx 45rpx;
+  font-size: 35rpx;
+  display: inline-block;
+  color: #65934a;
+}
+.nav.active{
+  padding: 10rpx 45rpx;
+  font-size: 35rpx;
+  display: inline-block;
+  border-bottom: 3px solid #03230e;
+  color: #65934a;
+}

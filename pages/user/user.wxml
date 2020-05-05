@@ -1,0 +1,106 @@
+<view class="container">
+  <!-- 顶部 -->
+  <view class="header_wrap" style="background:url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1584449915277&di=f897c044afa7b2951a9ea7ddba801071&imgtype=0&src=http%3A%2F%2Fdingyue.ws.126.net%2F2020%2F0121%2F44e33156j00q4g99j002cc000qo00f0m.jpg')">
+    <!-- 顶部头像 -->
+    <view class="img_wrap">
+      <image mode="widthFix" src="/icons/user_icon.png"></image>
+    </view>
+    <!-- 中间昵称 -->
+    <view class="user_mes">
+      <text class="name">name</text>
+      <image src="/icons/girl.png"></image>
+      <text class="vertify">[ 未进行身份认证 ]</text>
+    </view>
+    <!-- 个签 -->
+    <text class="label">Hello world !</text>
+  </view>
+
+  <!-- 点赞按钮等 他人主页不显示 -->
+  <view class="btn_wrap">
+    <view class="zan_img">
+      <image src="/icons/zan.png"></image>
+    </view>
+    <view class="zan">
+      <text>赞ta</text>
+    </view>
+    <view class="talk">私信</view>
+    <view class="follow">关注</view>
+  </view>
+
+  <!-- 介绍，动态等 -->
+  <view class="del_wrap">
+    <!-- 栏目名称 -->
+    <view class="tag">
+      <view class="influ">介绍</view>
+      <view class="influ">
+        <view class="activity">动态</view>
+        <view class="act_num">{{6}}</view>
+      </view>
+      <view class="influ">
+        <view class="fan">粉丝</view>
+        <view class="fan_num">{{5}}</view>
+      </view>
+      <view class="influ">
+        <view class="fol">关注</view>
+        <view class="fol_num">{{17}}</view>
+      </view>
+      <view class="influ">
+        <view class="comment">评价</view>
+        <view class="com_num">{{3}}</view>
+      </view>
+    </view>
+    <!-- 栏目显示内容 -->
+    <view class="tag_content">
+      <!-- 介绍 -->
+      <!-- <view class="introduce">
+        <text > 本人大三在读，浙江人，自我介绍自我介绍自我介绍自我介绍自我介绍自我介绍自我介绍自我介绍自我介绍自我介绍自我介绍自我介绍自我介绍自我介绍</text>
+      </view> -->
+
+      <!-- 动态 -->
+      <!-- <view class="act_del">
+        <view class="post" wx:for="{{postList}}" wx:key="index">
+          <Post post="{{item}}" bind:sendPostList="sendPostList"></Post>
+        </view>
+      </view> -->
+
+      <!-- 粉丝 -->
+      <!-- <view class="peo_item">
+        <view class="header_icon">
+          <image src="/icons/user_icon.png"></image>
+        </view>
+        <view class="name_wrap">
+          <view class="name1">沙发客1</view>
+          <view class="peo_num">hello world</view>
+        </view>
+        <view class="talk_icon">私聊</view>
+      </view> -->
+
+      <!-- 关注 -->
+      <!-- <view class="people"></view> -->
+      <!-- 评价 -->
+    </view>
+    <view class="com_del">
+      <view class="com_user">
+        <view class="com_user_icon">
+          <image src="/icons/user_icon.png"></image>
+        </view>
+        <view class="com_name">sofak1</view>
+      </view>
+      <view class="com_cens">
+        <view class="com_cen">沙发主人很好，很热心，博学多才，英俊多金，沙发主人很好，很热心，博学多才，英俊多金，沙发主人很好，很热心，博学多才，英俊多金，</view>
+        <view class="com_time">
+          <text>2020-1-22</text>
+        </view>
+      </view>
+      <view class="com_counts">
+        <view class="com_ico">
+          <image src="/icons/comment.png"></image>
+        </view>
+        <view class="com_count">27</view>
+      </view>
+    </view>
+  </view>
+
+
+
+</view>

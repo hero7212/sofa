@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "消息",
+  "navigationBarBackgroundColor": "#a0bf7c",
+  "usingComponents": {
+    "Message":"/components/Message/Message"
+  }
+}

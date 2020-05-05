@@ -1,0 +1,23 @@
+<view class="page-body">
+  <!-- swiper aspectFit-->
+  <swiper autoplay circular interval="3000" indicator-dots="true" indicator-color="#fefefe" indicator-active-color="#a0bf7c">
+    <swiper-item wx:for="{{swiperList}}" wx:key="index">
+      <navigator>
+        <image mode="widthFix" src="{{item.imgSrc}}"></image>
+      </navigator>
+    </swiper-item>
+  </swiper>
+
+  <view class="btn">
+    <text bindtap="newClick" class="btn_txt {{flag==0?'active':''}}" data-num='0'>最新</text>
+    <!-- <image src="/icons/line_icon.jpg" class="img_line"></image> -->
+    <text bindtap="zanClick" class="btn_txt {{flag==1?'active':''}}" data-num='1'>高赞</text>
+  </view>
+  <!-- body -->
+  <view wx:for="{{postList}}" wx:key="index" class="post_list">
+    <navigator class="sp_item" url="/pages/del/del" open-type="navigate">
+      <Post post="{{item}}" bind:sendPostList="sendPostList"></Post>
+    </navigator>
+  </view>
+
+</view>

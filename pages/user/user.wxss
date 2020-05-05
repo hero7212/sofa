@@ -1,0 +1,341 @@
+/* pages/user/user.wxss */
+
+.header_wrap {
+  width: 100%;
+  height: 310rpx;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: center;
+  padding: 30rpx 15rpx 15rpx 10rpx;
+}
+
+.img_wrap {
+  height: 180rpx;
+  width: 180rpx;
+  margin-bottom: 10rpx;
+}
+
+.img_wrap image {
+  height: 100%;
+  width: 100%;
+}
+
+.user_mes {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15rpx;
+}
+
+.name {
+  flex: 4;
+  color: white;
+  font-size: 40rpx;
+}
+
+.user_mes image {
+  height: 50rpx;
+  width: 50rpx;
+  padding: 0 15rpx;
+}
+
+.user_mes vertify {
+  flex: 4;
+  height: 80%;
+  font-size: 30rpx;
+}
+
+.label {
+  flex: 1;
+  width: 100rpx auto;
+  font-size: 33rpx;
+  color: white;
+}
+
+/* 点赞按钮等，他人界面不显示 */
+
+.btn_wrap {
+  height: 50rpx;
+  width: 100%;
+  background: #e6e6e6;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15rpx 10rpx ;
+}
+
+.zan_img {
+  height: 100%;
+  width:60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zan_img image {
+  height: 60rpx;
+  width: 60rpx;
+  margin-right: 10rpx;
+}
+
+.zan {
+  width:50%;
+  height:100%;
+  
+}
+.zan text{
+  width:100rpx;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32rpx;
+  color: white;
+  background-color: #65934a;
+  border-radius: 10rpx;
+}
+
+.talk {
+  width:100rpx;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32rpx;
+  color: #65934a;
+  background-color: white;
+  border: 1rpx solid #65934a;
+  border-radius: 10rpx;
+  margin-right: 15rpx;
+}
+
+.follow {
+  width:140rpx;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32rpx;
+  color: white;
+  background-color: #65934a;
+  /* border: 1rpx solid #65934a; */
+  border-radius: 10rpx;
+  margin-right: 30rpx;
+}
+
+/* 栏目 */
+.del_wrap{
+  width: 100%;
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+  background-color: white;
+  
+}
+.tag{
+  width: 100%;
+  height: 100rpx;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 2rpx solid #e6e6e6;
+}
+
+.influ{
+  flex:1;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size:35rpx;
+}
+/* 栏目显示内容 */
+.tag_content{
+  width:100%;
+  height: 100%;
+  padding:10rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* 介绍 */
+.introduce{
+  width:100%;
+  height: 100%;
+  padding:20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.introduce text{
+  width:90%;
+  height: 100%;
+  font-size: 33rpx;
+  color: #8a8a8a;
+}
+/* 动态 */
+.act_del{
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.post{
+  margin:10rpx;
+}
+
+/* 粉丝 关注people */
+.peo_item{
+  height:85rpx;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.header_icon{
+  height:100%;
+  width:80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_icon image{
+  height:65rpx;
+  width:65rpx;
+}
+.name_wrap{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+  padding-bottom: 5rpx;
+  border-bottom: 1rpx solid #a0bf7c;
+}
+.name1{
+  display: flex;
+  font-size: 30rpx;
+  align-items: center;
+  color:#1d1c1c;
+}
+.peo_num{
+  display: flex;
+  font-size: 28rpx;
+  /* justify-content: center; */
+  align-items: center;
+  color:#1d1c1c;
+}
+.talk_icon{
+  height:65%;
+  width: 100rpx;
+  display: flex;
+  font-size: 32rpx;
+  justify-content: center;/*内容水平居中*/
+  align-items: center;
+  color:#a0bf7c;
+  border-radius: 10rpx;/*圆角*/
+  /* padding:5rpx; */
+  border: 1rpx solid #a0bf7c;
+  margin: 0 20rpx;
+}
+/* 评论 */
+.com_del{
+  height:110rpx;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10rpx;
+  margin:10rpx;
+}
+.com_user{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.com_user_icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:100%;
+}
+.com_user_icon image{
+  width:65rpx;
+  height:65rpx;
+}
+
+.com_name{
+  display: flex;
+  font-size: 30rpx;
+  align-items: center;
+  color:#03230e;
+}
+.com_cens{
+  flex:6;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 15rpx;
+  flex-direction: column;
+  padding: 0 15rpx 10rpx 10rpx;
+  border-bottom: 1rpx solid #e6e6e6;
+}
+.com_cen{
+  width: 100%;
+  height:70%;
+  word-break: break-all; /*属性规定自动换行的处理方法。normal(使用浏览器默认的换行规则)break-all(允许在单词内换行)keep-all(只能在半角空格或连字符处换行。)*/
+  text-overflow: ellipsis;
+  display: -webkit-box; /* 对象作为伸缩盒子模型显示 */
+  -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 */
+  -webkit-line-clamp: 2; /* 显示的行数 */
+  overflow: hidden; /* 隐藏超出的内容 */
+  font-size: 27rpx;
+
+}
+.com_time{
+  width: 100%;
+  height:28%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.com_time text{
+  font-size: 28rpx;
+  align-items: center;
+  color:#8a8a8a ;
+
+}
+.com_counts{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 10rpx;
+
+}
+.com_ico{
+  height:100%;
+  width:100%;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.com_ico image{
+  width:60rpx;
+  height:60rpx;
+}
+.com_count{
+  display: flex;
+  font-size: 30rpx;
+  justify-content: center;/*内容水平居中*/
+  align-items: center;
+  color:#65934a;
+  padding:10rpx;
+}

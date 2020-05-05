@@ -1,0 +1,45 @@
+<view class="container">
+
+  <view class="weui-search-bar">
+    <view class="weui-search-bar__form">
+      <view class="weui-search-bar__box">
+        <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+        <input type="text" class="weui-search-bar__input" disabled='true' placeholder="搜索入口" bindtap="wxSearchTab" />
+      </view>
+    </view>
+  </view>
+
+  <view>{{ searchValue}}</view>
+
+  <view class="send_poster">
+    <navigator class="sp_item" url="/pages/send/send" open-type="navigate">
+      <image mode="scaleToFill" src="/icons/sofa0.png"></image>
+      <text>提供沙发</text>
+    </navigator>
+    <navigator class="sp_item" url="/pages/send/send" open-type="navigate">
+      <image mode="scaleToFill" src="/icons/seek_sofa0.png"></image>
+      <text>找寻沙发</text>
+    </navigator>
+    <navigator class="sp_item" url="/pages/send/send" open-type="navigate">
+      <image mode="scaleToFill" src="/icons/community0.png"></image>
+      <text>发表想法</text>
+    </navigator>
+  </view>
+
+
+
+  <view class="items">
+    <navigator url="/pages/del/del" open-type="navigate" wx:for="{{postList}}" wx:key="index">
+      <Post post="{{item}}"></Post>
+    </navigator>
+
+    <!-- <view wx:for="{{postList}}" wx:key="index" class="post_list">
+      <navigator class="sp_item" url="/pages/del/del" open-type="navigate">
+        <Post post="{{item}}" bind:sendPostList="sendPostList"></Post>
+      </navigator>
+    </view> -->
+  </view>
+
+
+
+</view>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "个人主页",
+  "navigationBarBackgroundColor": "#a0bf7c",
+  "usingComponents": {
+    "Post": "/components/Post/Post"
+  }
+}

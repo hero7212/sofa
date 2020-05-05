@@ -1,0 +1,61 @@
+.page-body {
+  height: 100%;
+  display: flex; /*水平居中 */
+  flex-direction: column;
+  background-color: #e6e6e6;
+  justify-content: center; /*内容水平居中*/
+  align-items: center;
+  /* align-items: center; *//* justify-content: space-between;在弹性盒对象的 <div> 元素中的各项周围留有空白： *//* padding: 200rpx 0; *//* box-sizing: border-box;边框和内边距的值是包含在width内的 */
+}
+
+swiper {
+  width: 100%;
+  height: 150px;
+}
+
+image {
+  width: 100%;
+  height: 150px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  height: 39rpx;
+  width: 250rpx;
+  justify-content: center; /*内容水平居中*/
+  align-items: center;
+  background-color: #a0bf7c;
+  border-radius: 10rpx; /*圆角*/
+  border:1rpx solid  #03230e;
+  margin: 10rpx;
+}
+/* .img_line{
+  height:39rpx;
+  width:8rpx;
+} */
+.btn_txt {
+  height: 39rpx;
+  width: 150rpx;
+  display: flex;
+  font-size: 35rpx;
+  justify-content: center; /*内容水平居中*/
+  align-items: center;
+  color: white;
+  border-radius: 10rpx; 
+}
+.btn_txt.active{
+  height: 39rpx;
+  width: 150rpx;
+  display: flex;
+  font-size: 35rpx;
+  justify-content: center; /*内容水平居中*/
+  align-items: center;
+  color: white;
+  border:1rpx solid  #03230e;
+  background: #407434 ;
+  border-radius: 10rpx; 
+}
+.post_list {
+  margin: 10rpx;
+}
